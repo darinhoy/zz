@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    display: flex;
+    margin: 20px;
+}
+main{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2px;
+    margin-right: 20px;
+    width: 60%;
+    font-family: sans-serif;
+    flex: 3;
+}
+aside{
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    flex: 1;
+}
+.cards{
+    display: flex;
+    margin: 20px;
+}
+.card{
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img{
+    width: 45%;
+    border-radius: 360px;
+}
+button{
+    background-color:#154360;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
